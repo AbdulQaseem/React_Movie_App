@@ -17,7 +17,7 @@ const responsive = {
   tablet: { breakpoint: { max: 1024, min: 464 }, items: 4 },
   mobile: { breakpoint: { max: 464, min: 0 }, items: 2 },
 };
-
+//helloooooo
 function AllAnimeDetail() {
   const { AnimeId } = useParams(); // Get movieId from the URL
   const [Anime, setAnime] = useState(null); // Movie details
